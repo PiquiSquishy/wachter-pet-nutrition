@@ -5,7 +5,7 @@ const PRODUCTS = [
     desc: 'Elaborada con carne muscular de res, huesos carnosos, órganos seleccionados y vegetales orgánicos.',
     price: '55',
     unit: 'Bs/kg',
-    image: '/images/product_card_5.png',
+    image: `${import.meta.env.BASE_URL}images/product_card_5.png`,
   },
   {
     name: 'BARF SELECT',
@@ -13,7 +13,7 @@ const PRODUCTS = [
     desc: 'Combinación de pollo criollo, menudencias seleccionadas, frutas y verduras orgánicas.',
     price: '48',
     unit: 'Bs/kg',
-    image: '/images/product_card_6.png',
+    image: `${import.meta.env.BASE_URL}images/product_card_6.png`,
   },
   {
     name: 'BARF SIGNATURE',
@@ -21,7 +21,7 @@ const PRODUCTS = [
     desc: 'Mezcla premium de carnes, vísceras y superfoods. Nutrición funcional de alto nivel.',
     price: '65',
     unit: 'Bs/kg',
-    image: '/images/product_card_7.png',
+    image: `${import.meta.env.BASE_URL}images/product_card_7.png`,
   },
 ]
 

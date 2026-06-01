@@ -76,7 +76,7 @@ export default function Benefits() {
           <div className="relative flex justify-center lg:sticky lg:top-32">
             <div className="relative max-w-md lg:max-w-none">
               <img
-                src="/images/page1_img0.png"
+                src={`${import.meta.env.BASE_URL}images/page1_img0.png`}
                 alt="Perro saludable - Alimentación BARF"
                 className="w-full h-auto object-contain opacity-90 drop-shadow-[0_0_80px_rgba(193,172,138,0.1)]"
                 loading="lazy"

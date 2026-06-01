@@ -103,7 +103,7 @@ export default function Contact() {
           <div className="flex flex-col items-center justify-center text-center">
             <div className="mb-8">
               <img
-                src="/images/wachter_logo.png"
+                src={`${import.meta.env.BASE_URL}images/wachter_logo.png`}
                 alt="Wächter"
                 className="h-20 w-auto mx-auto mb-5 opacity-80 drop-shadow-[0_0_20px_rgba(193,172,138,0.1)]"
                 loading="lazy"

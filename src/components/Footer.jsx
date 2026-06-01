@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="mb-5">
               <img
-                src="/images/wachter_logo.png"
+                src={`${import.meta.env.BASE_URL}images/wachter_logo.png`}
                 alt="Wächter Pet Nutrition"
                 className="h-14 w-auto opacity-90 drop-shadow-[0_0_15px_rgba(193,172,138,0.1)]"
                 loading="lazy"

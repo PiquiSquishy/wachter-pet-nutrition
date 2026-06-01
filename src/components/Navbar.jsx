@@ -31,7 +31,7 @@ export default function Navbar() {
           <a href="#hero" className="flex items-center group">
             <div className="relative">
               <img
-                src="/images/wachter_logo.png"
+                src={`${import.meta.env.BASE_URL}images/wachter_logo.png`}
                 alt="Wächter Pet Nutrition"
                 className="h-10 sm:h-12 w-auto transition-all duration-500 group-hover:scale-105 drop-shadow-[0_0_20px_rgba(193,172,138,0.2)]"
               />

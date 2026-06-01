@@ -57,7 +57,7 @@ export default function CarePlus() {
           <div className="relative">
             <div className="aspect-[4/5] bg-brand-dark border border-white/[0.06] overflow-hidden">
               <img
-                src="/images/catalog_page_8.png"
+                src={`${import.meta.env.BASE_URL}images/catalog_page_8.png`}
                 alt="Wächter Care+"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 loading="lazy"

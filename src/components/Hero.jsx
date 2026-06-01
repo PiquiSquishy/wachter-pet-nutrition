@@ -3,7 +3,7 @@ export default function Hero() {
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/images/cat_p1_xref141.jpeg"
+          src={`${import.meta.env.BASE_URL}images/cat_p1_xref141.jpeg`}
           alt="Wächter Pet Nutrition"
           className="w-full h-full object-cover scale-105"
           fetchpriority="high"
@@ -22,7 +22,7 @@ export default function Hero() {
         <div className="flex justify-center mb-10">
           <div className="relative">
             <img
-              src="/images/wachter_logo.png"
+              src={`${import.meta.env.BASE_URL}images/wachter_logo.png`}
               alt="Wächter"
               className="h-20 sm:h-24 w-auto opacity-95 drop-shadow-[0_0_30px_rgba(193,172,138,0.2)]"
               loading="lazy"
